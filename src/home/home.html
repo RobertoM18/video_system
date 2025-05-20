@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="scripts/movies.js"></script>
+    <script type="module" src="scripts/index.js"></script>
+  </head>
+  <body>
+    <nav aria-label="Main navigation">
+      <ul class="nav-list">
+        <div class="logo">
+          <h2>
+            <span>M</span>
+            <span>O</span>
+            <span>V</span>
+            <span>I</span>
+            <span>E</span>
+            <span>S</span>
+          </h2>
+        </div>
+        <div class="links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+        </div>
+        <li class="dropdown">
+          <button
+            id="profile-btn"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="profile-menu"
+            type="button"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              width="48"
+              height="48"
+              stroke-width="1.5"
+              stroke="white"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+              />
+            </svg>
+          </button>
+          <ul
+            id="profile-menu"
+            class="dropdown-menu"
+            role="menu"
+            tabindex="-1"
+            hidden
+          >
+            <li role="none">
+              <a role="menuitem" href="/profile">Perfil</a>
+            </li>
+            <li role="none">
+              <a role="menuitem" href="/settings">Configuracion</a>
+            </li>
+            <li role="none"><a role="menuitem" href="/logout">Cerrar Sesion</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="movie-container"></div>
+  </body>
+</html>
