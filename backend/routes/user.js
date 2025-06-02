@@ -2,6 +2,7 @@ const express = require("express");
 const { body } = require("express-validator");
 const userController = require("../controllers/user");
 const { validate } = require("../middleware/validation");
+const { protect } = require("../middleware/auth");
 
 const router = express.Router();
 
@@ -28,6 +29,28 @@ router.post(
     validate,
   ],
   userController.login
+);
+
+router.post(
+  "/favorites",
+  [
+    body("movieId").isInt().withMessage("Movie ID must be a valid integer"),
+    validate,
+  ],
+  protect,
+  userController.addToFavorites
+);
+
+router.delete(
+  "/favorites/:movieId",
+  protect,
+  userController.removeFromFavorites
+);
+
+router.get(
+  "/favorites",
+  protect,
+  userController.getFavorites
 );
 
 module.exports = router;

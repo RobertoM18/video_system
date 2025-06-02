@@ -78,3 +78,42 @@ exports.login = async (req, res, next) => {
     next(error);
   }
 };
+
+exports.addToFavorites = async (req, res, next) => {
+  try {
+    const userId = req.user.id;
+    const { movieId } = req.body;
+
+    const existingFavorite = await userRepo.getFavoriteByUserAndMovie(userId, movieId);
+    if (existingFavorite) {
+      return res.status(400).json({ message: "La película ya está en favoritos" });
+    }
+
+    await userRepo.addToFavorites(userId, movieId);
+    res.status(200).json({ message: "Película agregada a favoritos" });
+  } catch (error) {
+    next(error);
+  }
+};
+
+exports.removeFromFavorites = async (req, res, next) => {
+  try {
+    const userId = req.user.id;
+    const { movieId } = req.params;
+
+    await userRepo.removeFromFavorites(userId, movieId);
+    res.status(200).json({ message: "Película eliminada de favoritos" });
+  } catch (error) {
+    next(error);
+  }
+};
+
+exports.getFavorites = async (req, res, next) => {
+  try {
+    const userId = req.user.id;
+    const favorites = await userRepo.getFavoriteMovies(userId);
+    res.status(200).json(favorites);
+  } catch (error) {
+    next(error);
+  }
+};

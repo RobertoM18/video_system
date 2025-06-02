@@ -6,10 +6,8 @@ async function runMigration() {
   try {
     console.log('Running database migrations...');
     
-    // Read the init.sql file
     const initSql = fs.readFileSync(path.join(__dirname, 'init.sql'), 'utf8');
     
-    // Execute the SQL
     await db.none(initSql);
     
     console.log('Migrations completed successfully!');

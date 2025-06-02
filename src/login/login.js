@@ -1,6 +1,10 @@
 import api from "../utils/apiHelper.js";
+import {isAuthenticated} from "../utils/authHelper.js";
 
 document.addEventListener("DOMContentLoaded", function () {
+  if (isAuthenticated()) {
+    window.location.href = "../movies/movies.html";
+  }
   const form = document.getElementById("registroform");
   const errorContainer = document.querySelector(".error");
   form.addEventListener("submit", async function (event) {
@@ -38,19 +42,15 @@ document.addEventListener("DOMContentLoaded", function () {
     try {
       const response = await api.post("/users/login", user);
       localStorage.setItem("token", response.data.token);
-      window.location.href = "../home/home.html";
+      window.location.href = "../movies/movies.html";
     } catch (error) {
       if (error.response) {
-        // The request was made and the server responded with a status code
-        // that falls out of the range of 2xx
         errorContainer.textContent =
           error.response.data.message || "Error de autenticación";
       } else if (error.request) {
-        // The request was made but no response was received
         errorContainer.textContent =
           "No se pudo conectar con el servidor. Intente más tarde.";
       } else {
-        // Something happened in setting up the request
         errorContainer.textContent = "Error al intentar iniciar sesión";
       }
     }

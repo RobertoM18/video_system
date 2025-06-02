@@ -110,7 +110,6 @@ document.addEventListener("DOMContentLoaded", () => {
           document.getElementById("emailError").textContent =
             "El correo ya está registrado";
         } else {
-          // General error
           errorContainer.textContent = errorMessage;
           errorContainer.style.color = "red";
         }
