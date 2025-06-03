@@ -59,6 +59,6 @@ document.addEventListener("DOMContentLoaded", function () {
   document
     .getElementById("btn-registro")
     .addEventListener("click", function () {
-      window.location.href = "../registro/registro.html";
+      window.location.href = "/src/registro/registro.html";
     });
 });

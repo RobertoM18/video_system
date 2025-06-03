@@ -53,7 +53,7 @@ const btnAddList = document.getElementById("btn-add-list");
 let currentPage = 1;
 const moviesPerPage = 15;
 let filteredMovies = [];
-let userFavorites = []; // Store user's favorite movie IDs
+let userFavorites = [];
 
 function loadTheme() {
   const savedTheme = localStorage.getItem("theme");
@@ -205,7 +205,7 @@ function openMovieDetails(movie) {
   document.getElementById("modal-poster").src =
     movie.movie_poster || "https://via.placeholder.com/300x450?text=No+Image";
   document.getElementById("modal-year").textContent = movie.year;
-  document.getElementById("modal-runtime").textContent = movie.runtime; // Runtime not in database schema
+  document.getElementById("modal-runtime").textContent = movie.runtime;
   document.getElementById("modal-rating").textContent = movie.rating
     ? `★ ${movie.rating}`
     : "Not rated";
@@ -242,7 +242,7 @@ function updateFavoritesButton(movieId) {
 }
 function closeMovieModal() {
   movieModal.style.display = "none";
-  document.body.style.overflow = ""; // Restore scrolling
+  document.body.style.overflow = "";
 }
 function createMovieCard(movie) {
   const card = document.createElement("div");
@@ -268,12 +268,12 @@ function createMovieCard(movie) {
 }
 
 function handleSearch() {
-  currentPage = 1; // Reset to first page when searching
+  currentPage = 1;
   fetchMovies();
 }
 
 function applyFilters() {
-  currentPage = 1; // Reset to first page when filters change
+  currentPage = 1;
   fetchMovies();
 }
 function navigatePage(direction) {

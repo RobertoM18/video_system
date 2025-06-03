@@ -144,7 +144,7 @@ function closeMovieModal() {
 async function handleRemoveFromFavorites() {
   try {
     const movieId = movieModal.dataset.movieId;
-
+    console.log(movieModal.dataset);
     if (!movieId) {
       alert("Error: No se pudo obtener la información de la película");
       return;
