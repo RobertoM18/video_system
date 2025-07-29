@@ -10,7 +10,7 @@ RUN apt update && apt install -y \
     && apt clean
 
 # Install PHP extensions as needed
-RUN docker-php-ext-install pdo pdo_mysql pgsql zip bcmath
+RUN docker-php-ext-install pgsql zip bcmath curl mbstring
 
 # Install Composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
