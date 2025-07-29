@@ -32,12 +32,12 @@ COPY . .
 
 RUN chown -R www-data:www-data /var/www/html && \
     chmod -R 755 /var/www/html/storage && \
-    chmod -R 755 /var/www/html/bootstrap/cache \
+    chmod -R 755 /var/www/html/bootstrap/cache
 
 RUN composer install && \
     npm install && \
     npm run build && \
-    php artisan migrate --force \
+    php artisan migrate --force
 
 EXPOSE 80
 CMD ["php-fpm", "-F"]
