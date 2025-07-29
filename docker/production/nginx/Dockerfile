@@ -44,7 +44,8 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 RUN npm install && npm run build
 
 
-RUN php artisan optimize:clear && \
+RUN php artisan event:cache && \
+    php artisan event:cache && \
     php artisan view:cache
 
 # Copy Nginx config
