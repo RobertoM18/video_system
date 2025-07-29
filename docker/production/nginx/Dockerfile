@@ -1,12 +1,15 @@
 FROM php:8.4-fpm
 
 # Install system dependencies
-RUN apt update && apt install -y \
+RUN apt-get update && apt-get install -y \
     nginx \
     supervisor \
     git \
     unzip \
     curl \
+    libfreetype-dev \
+    libjpeg62-turbo-dev \
+    libpng-dev \
     && apt clean
 
 # Install PHP extensions as needed
