@@ -20,7 +20,7 @@ class AdminMovieController extends Controller
         $movies = Movies::query()
             ->select(['*'])
             ->whereRaw(
-                "(unaccent(title) ILIKE unaccent(?)
+                "(title ILIKE ?
                 OR director ILIKE ?
                 OR \"cast\" ILIKE ?)",
                 ["%$search%", "%$search%", "%$search%"]
