@@ -1,4 +1,5 @@
 FROM php:8.4-fpm
+ENV CACHE_DRIVER=file
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     nginx \
