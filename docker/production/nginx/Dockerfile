@@ -45,7 +45,7 @@ RUN npm install && npm run build
 
 ENV CACHE_STORE=file
 
-RUN php artisan optimize && \
+RUN php artisan optimize:clear && \
     php artisan config:cache && \
     php artisan event:cache && \
     php artisan route:cache && \
