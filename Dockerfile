@@ -12,7 +12,6 @@ RUN docker-php-ext-install \
         pdo_pgsql \
         tokenizer \
         xml
-RUN npm install && npm run build
 # Copy Composer binary from the Composer official Docker image
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
@@ -21,6 +20,7 @@ ENV APP_ENV production
 WORKDIR /app
 COPY . .
 
+RUN npm install && npm run build
 RUN composer install --no-interaction --optimize-autoloader --no-dev
 # Optimizing Configuration loading
 RUN php artisan config:cache
