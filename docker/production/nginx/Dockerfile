@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
     git \
     unzip \
     curl \
+    libcurl4-openssl-dev \
     && apt clean
 
 # Install PHP extensions as needed
