@@ -7,17 +7,10 @@ RUN apt-get update && apt-get install -y \
     git \
     unzip \
     curl \
-    libfreetype-dev \
-    libjpeg62-turbo-dev \
-    libpng-dev \
-    libpq-dev \
     && apt clean
 
 # Install PHP extensions as needed
-RUN docker-php-ext-install pgsql zip bcmath curl mbstring
-
-# Install Composer
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+RUN docker-php-ext-install @composer
 
 # Install Node.js (for Laravel Mix, if needed)
 RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - && \
