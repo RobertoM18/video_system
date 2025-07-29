@@ -22,8 +22,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     zip \
     bcmath \
     soap \
-    && pecl install redis \
-    && docker-php-ext-enable redis \
     && apt-get autoremove -y && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 # Install Node.js (for Laravel Mix, if needed)
 RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - && \
@@ -44,13 +42,6 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 RUN npm install && npm run build
 
 ENV CACHE_STORE=file
-ENV APP_ENV=production
-ENV APP_DEBUG=false
-
-RUN printenv | grep -E "CACHE_STORE|APP_ENV|APP_DEBUG"
-
-# Add this line to see what Laravel thinks the cache.default is *before* caching
-RUN php artisan config:show cache.default
 
 RUN php artisan optimize:clear && \
     php artisan config:cache && \
