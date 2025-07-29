@@ -1,41 +1,40 @@
-# Stage 1: Build assets
-FROM debian AS builder
+FROM php:8.4-fpm
 
-# Install Node.js and build tools
-RUN apt-get update && apt-get install -y --no-install-recommends \
+# Install system dependencies
+RUN apt update && apt install -y \
+    nginx \
+    supervisor \
+    git \
+    unzip \
     curl \
-    nodejs \
-    npm \
-    && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+    && apt clean
 
-# Set working directory
+# Install PHP extensions as needed
+RUN docker-php-ext-install pdo pdo_mysql pgsql zip bcmath
+
+# Install Composer
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
+# Install Node.js (for Laravel Mix, if needed)
+RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - && \
+    apt update && \
+    apt install -y nodejs
+
+# Copy application code
 WORKDIR /var/www
+COPY . .
 
-# Copy Laravel application code
-COPY .. /var/www
+# Copy Nginx config
+COPY docker/production/nginx/nginx.conf /etc/nginx/nginx.conf
 
-# Install Node.js dependencies and build assets
-RUN npm install && npm run build
+# Copy Supervisor config
+COPY docker/production/nginx/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
-# Stage 2: Nginx production image
-FROM nginx:alpine
+# Set permissions
+RUN chown -R www-data:www-data /var/www
 
-# Copy custom Nginx configuration
-# -----------------------------------------------------------
-# Replace the default Nginx configuration with our custom one
-# that is optimized for serving a Laravel application.
-# -----------------------------------------------------------
-COPY ./docker/production/nginx/nginx.conf /etc/nginx/nginx.conf
-
-# Copy Laravel's public assets from the builder stage
-# -----------------------------------------------------------
-# We only need the 'public' directory from our Laravel app.
-# -----------------------------------------------------------
-COPY --from=builder /var/www/public /var/www/public
-
-# Set the working directory to the public folder
-WORKDIR /var/www/public
-
-# Expose port 80 and start Nginx
+# Expose HTTP port
 EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+
+# Start Supervisor
+CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
