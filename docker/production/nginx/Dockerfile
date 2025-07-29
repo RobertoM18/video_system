@@ -1,20 +1,30 @@
 FROM php:8.4-fpm
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y --no-install-recommends \
     nginx \
     supervisor \
     git \
-    unzip \
     curl \
+    unzip \
+    libpq-dev \
+    libonig-dev \
+    libssl-dev \
+    libxml2-dev \
     libcurl4-openssl-dev \
-    && apt clean
-
-# Install PHP extensions as needed
-RUN docker-php-ext-install bcmath curl dom fileinfo mbstring pdo_pgsql pgsql xml zip
-
-RUN install-php-extensions @composer
-
+    libicu-dev \
+    libzip-dev \
+    && docker-php-ext-install -j$(nproc) \
+    pdo_mysql \
+    pdo_pgsql \
+    pgsql \
+    opcache \
+    intl \
+    zip \
+    bcmath \
+    soap \
+    && pecl install redis \
+    && docker-php-ext-enable redis \
+    && apt-get autoremove -y && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 # Install Node.js (for Laravel Mix, if needed)
 RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - && \
     apt update && \
@@ -24,14 +34,20 @@ RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - && \
 WORKDIR /var/www
 COPY . .
 
+# Set permissions
+RUN chown -R www-data:www-data /var/www/bootstrap/cache /var/www/storage \
+    && chmod -R 775 /var/www/bootstrap/cache /var/www/storage
+
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \
+    && composer install --no-dev --optimize-autoloader --no-interaction --no-progress --prefer-dist
+
+RUN npm install && npm run build
+
 # Copy Nginx config
 COPY docker/production/nginx/nginx.conf /etc/nginx/nginx.conf
 
 # Copy Supervisor config
 COPY docker/production/nginx/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
-
-# Set permissions
-RUN chown -R www-data:www-data /var/www
 
 # Expose HTTP port
 EXPOSE 80
