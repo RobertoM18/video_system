@@ -40,5 +40,5 @@ RUN composer install && \
     npm run build && \
     php artisan migrate --force
 
-EXPOSE 8000
+EXPOSE 9000
 CMD ["php-fpm8.4", "-F"]
