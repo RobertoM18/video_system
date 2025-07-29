@@ -1,5 +1,4 @@
 FROM php:8.4-fpm
-ENV CACHE_DRIVER=file
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     nginx \
@@ -43,6 +42,9 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
     && composer install --no-dev --optimize-autoloader --no-interaction --no-progress --prefer-dist
 
 RUN npm install && npm run build
+
+ENV CACHE_STORE=file
+
 RUN php artisan optimize && \
     php artisan optimize:clear && \
     php artisan config:cache && \
