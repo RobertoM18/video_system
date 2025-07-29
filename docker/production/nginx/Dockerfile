@@ -45,7 +45,7 @@ RUN npm install && npm run build
 
 
 RUN php artisan event:cache && \
-    php artisan event:cache && \
+    php artisan route:cache && \
     php artisan view:cache
 
 # Copy Nginx config
