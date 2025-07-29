@@ -10,7 +10,9 @@ RUN apt-get update && apt-get install -y \
     && apt clean
 
 # Install PHP extensions as needed
-RUN docker-php-ext-install @composer
+RUN docker-php-ext-install bcmath curl dom fileinfo mbstring pdo_pgsql pgsql xml zip
+
+RUN install-php-extensions @composer
 
 # Install Node.js (for Laravel Mix, if needed)
 RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - && \
