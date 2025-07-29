@@ -50,7 +50,7 @@ COPY docker/production/nginx/nginx.conf /etc/nginx/nginx.conf
 COPY docker/production/nginx/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 # Expose HTTP port
-EXPOSE 80
+EXPOSE 8000
 
 # Start Supervisor
 CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
