@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y \
     libfreetype-dev \
     libjpeg62-turbo-dev \
     libpng-dev \
+    libpq-dev \
     && apt clean
 
 # Install PHP extensions as needed
