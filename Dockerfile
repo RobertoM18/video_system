@@ -18,6 +18,7 @@ RUN apt update && \
     php8.4-curl \
     php8.4-fileinfo \
     php8.4-sqlite3 \
+    php8.4-xml \
     php8.4-zip &&\
     rm -rf /var/lib/apt/lists/*
 
