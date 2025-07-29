@@ -42,6 +42,11 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
     && composer install --no-dev --optimize-autoloader --no-interaction --no-progress --prefer-dist
 
 RUN npm install && npm run build
+RUN php artisan migrate && php artisan db:seed
+RUN php artisan optimize && \
+    php artisan optimize:clear && \
+    php artisan config:cache && \
+    php artisan view:cache
 
 # Copy Nginx config
 COPY docker/production/nginx/nginx.conf /etc/nginx/nginx.conf
