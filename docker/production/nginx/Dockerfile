@@ -44,6 +44,13 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 RUN npm install && npm run build
 
 ENV CACHE_STORE=file
+ENV APP_ENV=production
+ENV APP_DEBUG=false
+
+RUN printenv | grep -E "CACHE_STORE|APP_ENV|APP_DEBUG"
+
+# Add this line to see what Laravel thinks the cache.default is *before* caching
+RUN php artisan config:show cache.default
 
 RUN php artisan optimize:clear && \
     php artisan config:cache && \
