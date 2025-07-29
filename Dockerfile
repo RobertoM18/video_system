@@ -3,7 +3,7 @@ LABEL authors="frank"
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt update && \
-    apt install -y curl unzip ca-certificates gnupg software-properties-common && \
+    apt install -y curl unzip ca-certificates gnupg software-properties-common git && \
     rm -rf /var/lib/apt/lists/*
 
 RUN add-apt-repository ppa:ondrej/php
@@ -41,4 +41,4 @@ RUN composer install && \
     php artisan migrate --force
 
 EXPOSE 80
-CMD ["php-fpm", "-F"]
+CMD ["php-fpm8.4", "-F"]
