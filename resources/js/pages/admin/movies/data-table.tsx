@@ -111,9 +111,6 @@ export function DataTable<TData, TValue>({ columns, data, page, perPage, links, 
             onSuccess: () => {
                 toast.success('Pelicula agregada correctamente');
             },
-            onFinish: () => {
-                reset();
-            },
         });
     };
 
