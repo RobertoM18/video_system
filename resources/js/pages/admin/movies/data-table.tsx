@@ -384,7 +384,7 @@ export function DataTable<TData, TValue>({ columns, data, page, perPage, links, 
                     </TableBody>
                 </Table>
             </div>
-            <div className="flex items-center justify-end space-x-2 py-4">
+            <div className="flex items-center justify-end justify-self-end space-x-2 py-4">
                 <Pagination>
                     <PaginationContent>
                         <PaginationPrevious
