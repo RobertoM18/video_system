@@ -10,9 +10,6 @@ Route::get('/', function () {
     return Inertia::render('welcome');
 })->name('home');
 Route::middleware(['auth', 'verified'])->group(function () {
-    Route::get('dashboard', function () {
-        return Inertia::render('dashboard');
-    })->name('dashboard');
     Route::post('movies', [UserMovieController::class, 'store'])->name('movies.store');
     Route::get('movies', [UserMovieController::class, 'search'])->name('movies.search');
     Route::get('movies/{movieId}/{movieTitle}', [UserMovieController::class, 'findMovie'])->name('movie.info');
