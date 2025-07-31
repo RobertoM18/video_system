@@ -68,6 +68,7 @@ interface DataTableProps<TData, TValue> {
 export function DataTable<TData, TValue>({ columns, data, page, perPage, links }: DataTableProps<TData, TValue>) {
     const [sorting, setSorting] = useState<SortingState>([]);
     const [open, setOpen] = useState(false);
+    const [openAddUser, setOpenAddUser] = useState(false);
     const [value, setValue] = useState(perPage !== undefined && perPage !== null ? String(perPage) : '10');
 
     const table = useReactTable({
@@ -87,6 +88,7 @@ export function DataTable<TData, TValue>({ columns, data, page, perPage, links }
         post,
         processing,
         errors,
+        reset
     } = useForm<Required<User>>({
         email: '',
         name: '',
@@ -100,6 +102,8 @@ export function DataTable<TData, TValue>({ columns, data, page, perPage, links }
         post(route('admin.users.add'), {
             onSuccess: () => {
                 toast.success('Usuario creado exitosamente');
+                reset();
+                setOpenAddUser(false);
             },
             onError: () => {
                 toast.error('Error al crear el usuario');
@@ -165,7 +169,7 @@ export function DataTable<TData, TValue>({ columns, data, page, perPage, links }
                         </PopoverContent>
                     </Popover>
                 </div>
-                <Dialog>
+                <Dialog open={openAddUser} onOpenChange={setOpenAddUser}>
                     <DialogTrigger asChild>
                         <Button>Agregar Usuario</Button>
                     </DialogTrigger>

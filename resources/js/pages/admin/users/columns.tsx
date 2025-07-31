@@ -58,7 +58,7 @@ export const columns: ColumnDef<User>[] = [
                     setTimeout(() => setOpenDialog(true), 0);
                 }
 
-                const { data, setData, patch, errors } = useForm({
+                const { data, setData, patch, errors, reset } = useForm({
                     name: user.name,
                     email: user.email,
                     is_admin: user.is_admin,
@@ -66,7 +66,11 @@ export const columns: ColumnDef<User>[] = [
 
                 const updateForm: FormEventHandler = (e) => {
                     e.preventDefault();
-                    patch(route('admin.users.update', { userID: user.id }));
+                    patch(route('admin.users.update', { userID: user.id }), {
+                        onSuccess: () => {
+                            reset();
+                        },
+                    });
                 };
 
                 return (
