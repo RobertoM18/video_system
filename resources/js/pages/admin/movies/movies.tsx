@@ -8,7 +8,7 @@ export default function Movies({
     column,
     direction,
 }: {
-    movies: { data: []; current_page: string; per_page: number; prev_page_url: string; next_page_url: string }; column: string; direction: string;
+    movies: { data: []; current_page: string; per_page: number; links: [] }; column: string; direction: string;
 }) {
     return (
         <>
@@ -22,8 +22,7 @@ export default function Movies({
                         column={column}
                         direction={direction}
                         page={movies.current_page}
-                        nextPage={movies.next_page_url}
-                        previousPage={movies.prev_page_url}
+                        links={movies.links}
                     ></DataTable>
                 </div>
             </AppLayout>

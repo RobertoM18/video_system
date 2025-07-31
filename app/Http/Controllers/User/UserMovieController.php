@@ -23,7 +23,7 @@ class UserMovieController extends Controller
         $query = \App\Models\Movies::query();
 
         if ($request->filled('title')) {
-            $query->whereRaw("unaccent(title) ILIKE unaccent(?)", ['%' . $request->input('title') . '%']);
+            $query->where('title', 'ILIKE', '%' . $request->input('title') . '%');
         }
         if ($request->filled('genre')) {
             $query->where('genres', 'like', '%' . $request->input('genre') . '%');

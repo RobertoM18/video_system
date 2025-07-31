@@ -16,13 +16,20 @@ import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { cn } from '@/lib/utils';
 import { Textarea } from '@headlessui/react';
-import { Link, router, useForm } from '@inertiajs/react';
+import { router, useForm } from '@inertiajs/react';
 import { ColumnDef, flexRender, getCoreRowModel, getSortedRowModel, SortingState, useReactTable } from '@tanstack/react-table';
 import { debounce } from 'lodash';
 import { Check, ChevronDown, ChevronsUpDown } from 'lucide-react';
 import { FormEventHandler, useCallback, useState } from 'react';
 import { toast } from 'sonner';
 import './movies.css';
+import {
+    Pagination,
+    PaginationContent, PaginationEllipsis,
+    PaginationItem,
+    PaginationLink, PaginationNext,
+    PaginationPrevious
+} from '@/components/ui/pagination';
 
 const frameworks = [
     {
@@ -44,13 +51,12 @@ interface DataTableProps<TData, TValue> {
     data: TData[];
     page?: string;
     perPage?: number;
-    previousPage?: string;
     column?: string;
     direction?: string;
-    nextPage?: string;
+    links:{ url: string; label: string; active: boolean }[];
 }
 
-export function DataTable<TData, TValue>({ columns, data, page, perPage, previousPage, nextPage, column, direction }: DataTableProps<TData, TValue>) {
+export function DataTable<TData, TValue>({ columns, data, page, perPage, links, column, direction }: DataTableProps<TData, TValue>) {
     const [sorting, setSorting] = useState<SortingState>([]);
     const [open, setOpen] = useState(false);
     const [value, setValue] = useState(perPage !== undefined && perPage !== null ? String(perPage) : '10');
@@ -105,9 +111,6 @@ export function DataTable<TData, TValue>({ columns, data, page, perPage, previou
             onSuccess: () => {
                 toast.success('Pelicula agregada correctamente');
             },
-            onFinish: () => {
-                reset();
-            },
         });
     };
 
@@ -117,9 +120,7 @@ export function DataTable<TData, TValue>({ columns, data, page, perPage, previou
         [setData],
     );
 
-    const [selectedDropdown, setSelectedDropdown] = useState('');
     const [position, setPosition] = useState('bottom');
-
     return (
         <div>
             <div className="flex flex-wrap items-center justify-between gap-3 py-4">
@@ -148,9 +149,9 @@ export function DataTable<TData, TValue>({ columns, data, page, perPage, previou
                         </PopoverTrigger>
                         <PopoverContent className="w-[200px] p-0">
                             <Command>
-                                <CommandInput placeholder="Search framework..." className="h-9" />
+                                <CommandInput placeholder="Selecciona items por pagina" className="h-9" />
                                 <CommandList>
-                                    <CommandEmpty>No framework found.</CommandEmpty>
+                                    <CommandEmpty>No existe ese valor</CommandEmpty>
                                     <CommandGroup>
                                         {frameworks.map((framework) => (
                                             <CommandItem
@@ -197,72 +198,6 @@ export function DataTable<TData, TValue>({ columns, data, page, perPage, previou
                                 <DropdownMenuRadioItem value="right">Right</DropdownMenuRadioItem>
                             </DropdownMenuRadioGroup>
                         </DropdownMenuContent>
-                        {/*<DropdownMenuContent className="DropdownMenuContent">*/}
-                        {/*    <DropdownMenuItem*/}
-                        {/*        onClick={() => {*/}
-                        {/*            setSelectedDropdown('recent');*/}
-                        {/*            router.get(*/}
-                        {/*                route('admin.movies'),*/}
-                        {/*                {*/}
-                        {/*                    perPage: perPage,*/}
-                        {/*                    column: 'id',*/}
-                        {/*                    direction: 'desc',*/}
-                        {/*                },*/}
-                        {/*                { preserveState: true },*/}
-                        {/*            );*/}
-                        {/*        }}*/}
-                        {/*    >*/}
-                        {/*        Recientes {selectedDropdown === 'recent' && <Check className="ml-auto" />}*/}
-                        {/*    </DropdownMenuItem>*/}
-                        {/*    <DropdownMenuItem*/}
-                        {/*        onClick={() => {*/}
-                        {/*            setSelectedDropdown('older');*/}
-                        {/*            router.get(*/}
-                        {/*                route('admin.movies'),*/}
-                        {/*                {*/}
-                        {/*                    perPage: perPage,*/}
-                        {/*                    column: 'id',*/}
-                        {/*                    direction: 'asc',*/}
-                        {/*                },*/}
-                        {/*                { preserveState: true },*/}
-                        {/*            );*/}
-                        {/*        }}*/}
-                        {/*    >*/}
-                        {/*        Mas Antiguas {selectedDropdown === 'older' && <Check className="ml-auto" />}*/}
-                        {/*    </DropdownMenuItem>*/}
-                        {/*    <DropdownMenuItem*/}
-                        {/*        onClick={() => {*/}
-                        {/*            setSelectedDropdown('year');*/}
-                        {/*            router.get(*/}
-                        {/*                route('admin.movies'),*/}
-                        {/*                {*/}
-                        {/*                    perPage: perPage,*/}
-                        {/*                    column: 'year',*/}
-                        {/*                    direction: 'desc',*/}
-                        {/*                },*/}
-                        {/*                { preserveState: true },*/}
-                        {/*            );*/}
-                        {/*        }}*/}
-                        {/*    >*/}
-                        {/*        Año {selectedDropdown === 'year' && <Check className="ml-auto" />}*/}
-                        {/*    </DropdownMenuItem>*/}
-                        {/*    <DropdownMenuItem*/}
-                        {/*        onClick={() => {*/}
-                        {/*            setSelectedDropdown('rating');*/}
-                        {/*            router.get(*/}
-                        {/*                route('admin.movies'),*/}
-                        {/*                {*/}
-                        {/*                    perPage: perPage,*/}
-                        {/*                    column: 'rating',*/}
-                        {/*                    direction: 'desc',*/}
-                        {/*                },*/}
-                        {/*                { preserveState: true },*/}
-                        {/*            );*/}
-                        {/*        }}*/}
-                        {/*    >*/}
-                        {/*        Rating {selectedDropdown === 'rating' && <Check className="ml-auto" />}*/}
-                        {/*    </DropdownMenuItem>*/}
-                        {/*</DropdownMenuContent>*/}
                     </DropdownMenu>
                     <DropdownMenu>
                         <DropdownMenuTrigger asChild>
@@ -446,29 +381,94 @@ export function DataTable<TData, TValue>({ columns, data, page, perPage, previou
                     </TableBody>
                 </Table>
             </div>
-            <div className="flex items-center justify-end space-x-2 py-4">
-                {previousPage ? (
-                    <Link href={previousPage} data={{ perPage: parseInt(value) }} preserveState>
-                        <Button variant="outline" size="sm">
-                            Previous
-                        </Button>
-                    </Link>
-                ) : (
-                    <Button variant="outline" size="sm" disabled>
-                        Previous
-                    </Button>
-                )}
-                {nextPage ? (
-                    <Link href={nextPage} data={{ perPage: parseInt(value), column: column, direction: direction }} preserveState>
-                        <Button variant="outline" size="sm">
-                            Next
-                        </Button>
-                    </Link>
-                ) : (
-                    <Button variant="outline" size="sm" disabled>
-                        Next
-                    </Button>
-                )}
+            <div className="flex items-center justify-end justify-self-end space-x-2 py-4">
+                <Pagination>
+                    <PaginationContent>
+                        <PaginationPrevious
+                            href={
+                                links?.[0]?.url
+                                    ? `${links[0].url}${links[0].url.includes('?') ? '&' : '?'}perPage=${value}`
+                                    : '#'
+                            }
+                        />
+                        {links.length > 7 && (
+                            <>
+                                <PaginationItem>
+                                    <PaginationLink
+                                        href={
+                                            links[1].url
+                                                ? `${links[1].url}${links[1].url.includes('?') ? '&' : '?'}perPage=${value}`
+                                                : '#'
+                                        }
+                                        isActive={links[1].active}
+                                    >
+                                        {links[1].label}
+                                    </PaginationLink>
+                                </PaginationItem>
+                                {Number(page) > 3 && (
+                                    <PaginationItem>
+                                        <PaginationEllipsis />
+                                    </PaginationItem>
+                                )}
+                                {links
+                                    .slice(Math.max(Number(page) - 1, 2), Math.min(Number(page) + 4, links.length - 2))
+                                    .map((link, index) => (
+                                        <PaginationItem key={index}>
+                                            <PaginationLink
+                                                href={
+                                                    link.url
+                                                        ? `${link.url}${link.url.includes('?') ? '&' : '?'}perPage=${value}`
+                                                        : '#'
+                                                }
+                                                isActive={link.active}
+                                            >
+                                                {link.label}
+                                            </PaginationLink>
+                                        </PaginationItem>
+                                    ))}
+                                {Number(page) < links.length - 4 && (
+                                    <PaginationItem>
+                                        <PaginationEllipsis />
+                                    </PaginationItem>
+                                )}
+                                <PaginationItem>
+                                    <PaginationLink
+                                        href={
+                                            links[links.length - 2].url
+                                                ? `${links[links.length - 2].url}${links[links.length - 2].url.includes('?') ? '&' : '?'}perPage=${value}`
+                                                : '#'
+                                        }
+                                        isActive={links[links.length - 2].active}
+                                    >
+                                        {links[links.length - 2].label}
+                                    </PaginationLink>
+                                </PaginationItem>
+                            </>
+                        )}
+                        {links.length <= 7 &&
+                            links.slice(1, links.length - 1).map((link, index) => (
+                                <PaginationItem key={index}>
+                                    <PaginationLink
+                                        href={
+                                            link.url
+                                                ? `${link.url}${link.url.includes('?') ? '&' : '?'}perPage=${value}`
+                                                : '#'
+                                        }
+                                        isActive={link.active}
+                                    >
+                                        {link.label}
+                                    </PaginationLink>
+                                </PaginationItem>
+                            ))}
+                        <PaginationNext
+                            href={
+                                links?.[links.length - 1]?.url
+                                    ? `${links[links.length - 1].url}${links[links.length - 1].url.includes('?') ? '&' : '?'}perPage=${value}`
+                                    : '#'
+                            }
+                        />
+                    </PaginationContent>
+                </Pagination>
             </div>
         </div>
     );

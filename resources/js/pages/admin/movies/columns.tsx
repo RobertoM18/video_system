@@ -154,9 +154,6 @@ export const columns: ColumnDef<Movie>[] = [
                         onError: () => {
                             toast.error('Error al actualizar la película');
                         },
-                        onFinish: () => {
-                            reset();
-                        },
                         preserveState: true,
                     });
                 };
