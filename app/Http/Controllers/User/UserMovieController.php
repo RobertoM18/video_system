@@ -20,13 +20,13 @@ class UserMovieController extends Controller
             $perPage = 20;
         }
 
-        $query = \App\Models\Movies::query();
+        $query = Movies::query();
 
         if ($request->filled('title')) {
-            $query->where('title', 'ILIKE', '%' . $request->input('title') . '%');
+            $query->where('title', 'like', "%{$request->input('title')}%");
         }
         if ($request->filled('genre')) {
-            $query->where('genres', 'like', '%' . $request->input('genre') . '%');
+            $query->where('genres', 'like', "%{$request->input('genre')}%");
         }
         $movies = $query->orderBy('year', 'desc')->orderBy('id', 'asc')->paginate($perPage, ['*'], 'page', $page);
         return Inertia::render('movies', [

@@ -19,11 +19,11 @@ class AdminMovieController extends Controller
         $direction = $request->input('direction', 'desc');
         $movies = Movies::query()
             ->select(['*'])
-            ->whereRaw(
-                "(title ILIKE ?
-                OR director ILIKE ?
-                OR \"cast\" ILIKE ?)",
-                ["%$search%", "%$search%", "%$search%"]
+            ->whereAny([
+                    'title',
+                    'director',
+                    'cast',
+                ], 'like', "%{$search}%"
             )
             ->orderBy($column, $direction)->paginate($request->input('perPage', 10), ['*'], 'page', $request->input('page', 1));
         return Inertia::render('admin/movies/movies', [
