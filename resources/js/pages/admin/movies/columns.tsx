@@ -150,6 +150,7 @@ export const columns: ColumnDef<Movie>[] = [
                     put(route('admin.movies.update'), {
                         onSuccess: () => {
                             toast.success('Película actualizada correctamente');
+                            handleOpenDialog();
                         },
                         onError: () => {
                             toast.error('Error al actualizar la película');

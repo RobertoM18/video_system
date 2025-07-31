@@ -59,6 +59,7 @@ interface DataTableProps<TData, TValue> {
 export function DataTable<TData, TValue>({ columns, data, page, perPage, links, column, direction }: DataTableProps<TData, TValue>) {
     const [sorting, setSorting] = useState<SortingState>([]);
     const [open, setOpen] = useState(false);
+    const [openAddMovie, setOpenAddMovie] = useState(false);
     const [value, setValue] = useState(perPage !== undefined && perPage !== null ? String(perPage) : '10');
 
     const table = useReactTable({
@@ -110,6 +111,8 @@ export function DataTable<TData, TValue>({ columns, data, page, perPage, links, 
         post(route('admin.movies.add'), {
             onSuccess: () => {
                 toast.success('Pelicula agregada correctamente');
+                setOpenAddMovie(false);
+                reset()
             },
         });
     };
@@ -223,7 +226,7 @@ export function DataTable<TData, TValue>({ columns, data, page, perPage, links, 
                                 })}
                         </DropdownMenuContent>
                     </DropdownMenu>
-                    <Dialog>
+                    <Dialog open={openAddMovie} onOpenChange={setOpenAddMovie}>
                         <DialogTrigger asChild>
                             <Button>Agregar Pelicula</Button>
                         </DialogTrigger>
