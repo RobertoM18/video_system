@@ -20,3 +20,17 @@ En una terminal ejecutar lo siguiente:
 `composer run dev`
 
 Ingresar luego en navegador ingresar a [localhost:8000](http://localhost:8000)
+
+
+# Credenciales
+
+## Admin  
+**usuario**: admin@example.com  
+**contraseña**: password  
+
+## Usuario normal
+**usuario**: test@example.com  
+**contraseña**: password  
+
+# Página web
+https://immediate-libbie-frankve-15aa0261.koyeb.app/
