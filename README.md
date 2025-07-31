@@ -15,7 +15,7 @@ En una terminal ejecutar lo siguiente:
 
 `npm install && npm run build`
 
-`php artisan migrate && php artisan db:seed`
+`php artisan migrate --force && php artisan db:seed`
 
 `composer run dev`
 
