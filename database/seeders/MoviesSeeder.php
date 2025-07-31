@@ -15,36 +15,6 @@ class MoviesSeeder extends Seeder
         $movies = array (
             0 =>
                 array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BOWRiOThkM2YtYzI4NS00OWViLTk0ODMtMjNlNDYyZWQ3MzNjXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg',
-                    'title' => 'F1',
-                    'year' => '2025',
-                    'summary' => 'Sigue a un piloto de Fórmula Uno que sale de su retiro para convertirse en mentor y formar equipo con un piloto más joven.',
-                    'genres' => 'Acción, Drama, Deporte',
-                    'runtime' => '2h 35m',
-                    'director' => 'Joseph Kosinski',
-                    'cast' => 'Brad Pitt, Javier Bardem, Kerry Condon',
-                    'rating' => '',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            1 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BODlkOTkyOTgtY2M3My00MmVmLWE0YzYtOWRhMDZjNDkwMzI2XkEyXkFqcGc@._V1_QL75_UX380_CR0,20,380,562_.jpg',
-                    'title' => 'Jurassic World: El renacer',
-                    'year' => '2025',
-                    'summary' => 'Cinco años después de Jurassic World: Dominion, una expedición se aventura en remotas regiones ecuatoriales para extraer ADN de tres enormes criaturas prehistóricas, con el objetivo de lograr un avance médico revolucionario.',
-                    'genres' => 'Acción, Aventura, Ciencia ficción',
-                    'runtime' => '2h 14m',
-                    'director' => 'Gareth Edwards',
-                    'cast' => 'Scarlett Johansson, Rupert Friend, Jonathan Bailey',
-                    'rating' => '',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            2 =>
-                array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BN2UwZjg1ZjEtMDc5Ni00MTYyLTkzMmMtYjYxZmFhYzYyMGZmXkEyXkFqcGc@._V1_QL75_UY562_CR234,0,380,562_.jpg',
                     'title' => 'Pillion',
                     'year' => '2025',
@@ -54,11 +24,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Harry Lighton',
                     'cast' => 'Alexander Skarsgård, Harry Melling, Douglas Hodge',
                     'rating' => '7,3',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/LeV8jdmmQWM',
                 ),
-            3 =>
+            1 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BYjkxNGVjYmItNzlhMS00ZjA0LWJlMmMtNTUzMThmNTY0ODA3XkEyXkFqcGc@._V1_QL75_UX380_CR0,20,380,562_.jpg',
                     'title' => 'M3GAN 2.0',
@@ -69,11 +39,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Gerard Johnstone',
                     'cast' => 'Allison Williams, Ivanna Sakhno, Jenna Davis',
                     'rating' => '6,4',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/IYLHdEzsk1s',
                 ),
-            4 =>
+            2 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BZGQ5NGEyYTItMjNiMi00Y2EwLTkzOWItMjc5YjJiMjMyNTI0XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Misión: Imposible - Sentencia final',
@@ -84,11 +54,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Christopher McQuarrie',
                     'cast' => 'Tom Cruise, Hayley Atwell, Ving Rhames',
                     'rating' => '7,5',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/A6VZHeeZGgk',
                 ),
-            5 =>
+            3 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BOWUyM2Y5YWMtZTUzZC00ODBiLTg1N2QtNGMzOTNkOTVjMDY4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Lilo y Stitch',
@@ -99,11 +69,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Dean Fleischer Camp',
                     'cast' => 'Maia Kealoha, Sydney Agudong, Chris Sanders',
                     'rating' => '7,0',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/VWqJifMMgZE',
                 ),
-            6 =>
+            4 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNTUwNzJhOWMtN2E2NC00NWQxLWI1NTctZTY0MzZiZGNiOGFjXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Destino final: Lazos de sangre',
@@ -114,11 +84,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Zach Lipovsky, Adam B. Stein',
                     'cast' => 'Kaitlyn Santa Juana, Teo Briones, Rya Kihlstedt',
                     'rating' => '7,0',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/8FudANSsWNQ',
                 ),
-            7 =>
+            5 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNWRlZmU3ZTItM2JlYi00YTg1LTgxNTItMjMyNzIyZWY5YWJmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'La fuente de la eterna juventud',
@@ -129,11 +99,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Guy Ritchie',
                     'cast' => 'John Krasinski, Natalie Portman, Eiza González',
                     'rating' => '5,7',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/6NW6Qz915oA',
                 ),
-            8 =>
+            6 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMWY3MzM1Y2YtZWIzOS00ZWJiLWI1YzYtZDY5MzFkY2I4ZjY5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Los pecadores',
@@ -144,11 +114,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Ryan Coogler',
                     'cast' => 'Michael B. Jordan, Miles Caton, Saul Williams',
                     'rating' => '8,0',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/wAxwRnRvGXc',
                 ),
-            9 =>
+            7 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNjJlMDJjZTctNDlkYi00YTNmLWIyZjUtZjdmZTFhNDQwMTQ4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'La calle del terror: La reina del baile',
@@ -159,11 +129,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Matt Palmer',
                     'cast' => 'India Fowler, Suzanna Son, Fina Strazza',
                     'rating' => '5,2',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/-Y5F-VodcGo',
                 ),
-            10 =>
+            8 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMDM3ZTVkMGUtYjcyNi00NGY1LTlkY2ItZWJhODk1MjZiZGU0XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Thunderbolts*',
@@ -174,11 +144,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Jake Schreier',
                     'cast' => 'Florence Pugh, Sebastian Stan, Julia Louis-Dreyfus',
                     'rating' => '7,6',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/hUUszE29jS0',
                 ),
-            11 =>
+            9 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BODM0M2M4YWQtMzhlNy00NjdkLWFkODktOGNlNTc4OTFiZjZmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Nonnas',
@@ -189,11 +159,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Stephen Chbosky',
                     'cast' => 'Vince Vaughn, Lorraine Bracco, Talia Shire',
                     'rating' => '6,9',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/rDJxJd3FzDY',
                 ),
-            12 =>
+            10 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BZTg0YzRkNDMtZTJjZS00Mjk0LTgwNGQtZWIzMTM3ZDRmZTQwXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Misión: Imposible - Sentencia mortal. Parte Uno',
@@ -204,11 +174,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Christopher McQuarrie',
                     'cast' => 'Tom Cruise, Hayley Atwell, Ving Rhames',
                     'rating' => '7,6',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/XoDmKCZBeeI',
                 ),
-            13 =>
+            11 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BY2I5MmUxZGMtNTI0MC00OWU0LThjZjMtMDRjYTNmZDdkYmJhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Mickey 17',
@@ -219,11 +189,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Bong Joon Ho',
                     'cast' => 'Robert Pattinson, Steven Yeun, Michael Monroe',
                     'rating' => '6,8',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/osYpGSz_0i4',
                 ),
-            14 =>
+            12 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNzg5MTNkOTQtZDU2ZC00MjM3LTk1MDAtMTYyZDFmN2Y2MTY5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Until Dawn',
@@ -234,11 +204,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'David F. Sandberg',
                     'cast' => 'Ella Rubin, Michael Cimino, Odessa A\'zion',
                     'rating' => '5,8',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/2b3vBaINZ7w',
                 ),
-            15 =>
+            13 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMGJjMDZiNzYtOWNjNS00MmYwLTg4NjAtYTJmYjZmODBlMzYzXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Una película de Minecraft',
@@ -249,26 +219,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Jared Hess',
                     'cast' => 'Jason Momoa, Jack Black, Sebastian Hansen',
                     'rating' => '5,7',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/bwAbeOvpfq0',
                 ),
-            16 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMWFiZjUwZmEtMGVjYi00MjI0LTk5MzAtMjM0MjRkODcyNjI5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => 'Superman',
-                    'year' => '2025',
-                    'summary' => 'Sigue al superhéroe titular mientras reconcilia su herencia con su educación humana. Es la encarnación de la verdad, la justicia y un mañana mejor en un mundo que ve la bondad como algo anticuado.',
-                    'genres' => 'Acción, Aventura, Fantasía',
-                    'runtime' => '2h 2m',
-                    'director' => 'James Gunn',
-                    'cast' => 'David Corenswet, Rachel Brosnahan, Nicholas Hoult',
-                    'rating' => '',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            17 =>
+            14 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BYmQxZGIxNTYtYTQwMy00ODdkLWI0MmQtM2E0ZmIyNmYzMGMzXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'A Working Man',
@@ -279,11 +234,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'David Ayer',
                     'cast' => 'Jason Statham, Jason Flemyng, Merab Ninidze',
                     'rating' => '5,7',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/zTbgNC42Ops',
                 ),
-            18 =>
+            15 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BODhhMjU4ZGItZjEzZC00MzM1LWEyMTEtMDhmOTNiN2Y3MDg5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Blancanieves',
@@ -294,11 +249,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Marc Webb',
                     'cast' => 'Rachel Zegler, Emilia Faucher, Gal Gadot',
                     'rating' => '1,7',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/BE0BwFSYXOQ',
                 ),
-            19 =>
+            16 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BZWMwNTc4NjItNzJhZC00OWY5LWE2NGYtMzkwNTZmOTI4YWMzXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Destino final',
@@ -309,11 +264,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'James Wong',
                     'cast' => 'Devon Sawa, Ali Larter, Kerr Smith',
                     'rating' => '6,7',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/pCiWxIHw7bQ',
                 ),
-            20 =>
+            17 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BYzk2MjdkZDMtNmU0ZC00ZTEyLTk0ZTAtZDM1MmFhNDdhMjFiXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'La hermanastra fea',
@@ -324,11 +279,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Emilie Blichfeldt',
                     'cast' => 'Lea Myren, Ane Dahl Torp, Thea Sofie Loch Næss',
                     'rating' => '7,0',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/JVlVSnIhQjU',
                 ),
-            21 =>
+            18 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNTJmODQzYmItNTZlMy00Mjg0LTk1NjctYjM4ZGI0NTM3ZTVjXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'El esquema fenicio',
@@ -339,26 +294,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Wes Anderson',
                     'cast' => 'Benicio Del Toro, Mia Threapleton, Michael Cera',
                     'rating' => '6,8',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/EK_xkN9fxnM',
                 ),
-            22 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BYzRiYTA1YTEtMjYwMi00NGVhLThkOGYtZDBlYjNjZDk2NDEwXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => 'Lilo & Stitch',
-                    'year' => '2002',
-                    'summary' => 'Una niña hawaiana adopta a supuesto un perro, sin saber que es un peligroso experimento científico que se ha refugiado en la Tierra y que ahora se esconde de su creador y de quienes lo ven como una amenaza.',
-                    'genres' => 'Animación, Aventura, Comedia',
-                    'runtime' => '1h 25m',
-                    'director' => 'Dean DeBlois, Chris Sanders',
-                    'cast' => 'Daveigh Chase, Chris Sanders, Tia Carrere',
-                    'rating' => '7,3',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            23 =>
+            19 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMzZhODk0NDktMjJjOC00NThjLWE5MDctNmUzYjA3MjIwNDA0XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Warfare: Tiempo de guerra',
@@ -369,11 +309,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Alex Garland, Ray Mendoza',
                     'cast' => 'D\'Pharaoh Woon-A-Tai, Will Poulter, Cosmo Jarvis',
                     'rating' => '7,4',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/U2fyVaevw3o',
                 ),
-            24 =>
+            20 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMzljN2M1MWMtYmUwMi00YWM5LTllMGItNzZlMmU1NWM2NTY5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Friendship',
@@ -384,11 +324,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Andrew DeYoung',
                     'cast' => 'Tim Robinson, Paul Rudd, Kate Mara',
                     'rating' => '7,5',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/cmSPwZIZu6Y',
                 ),
-            25 =>
+            21 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMjgyMDE3ZGEtYmJjNS00MzI1LTk5ZmUtZTc4OGQzZWJlODk4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Mission: Impossible',
@@ -399,11 +339,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Brian De Palma',
                     'cast' => 'Tom Cruise, Jon Voight, Emmanuelle Béart',
                     'rating' => '7,2',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/L8Pbjh4EZRk',
                 ),
-            26 =>
+            22 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMjEwMzMxODIzOV5BMl5BanBnXkFtZTgwNzg3OTAzMDI@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Rogue One: Una historia de Star Wars',
@@ -414,11 +354,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Gareth Edwards',
                     'cast' => 'Felicity Jones, Diego Luna, Alan Tudyk',
                     'rating' => '7,8',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/Xcs4OpUJWrM',
                 ),
-            27 =>
+            23 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BZWJjMjdhNGEtZjEyMi00OTg2LTllMzQtN2JlZWNjYzI4YzFhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Estragos',
@@ -429,11 +369,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Gareth Evans',
                     'cast' => 'Tom Hardy, Jessie Mei Li, Justin Cornwell',
                     'rating' => '5,7',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/9mqXX2cn5SA',
                 ),
-            28 =>
+            24 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BYThlZjg0MmItMjViYy00NjQ1LWJlOWQtMzIxMzI4NjhiMDA1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'El contable 2',
@@ -444,11 +384,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Gavin O\'Connor',
                     'cast' => 'Ben Affleck, Jon Bernthal, Cynthia Addai-Robinson',
                     'rating' => '7,0',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/i2R_Ac7bBL4',
                 ),
-            29 =>
+            25 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNTY1MDg1MWYtZmJkMC00Y2I2LWFhNmItYmUxZjRiODk3OGNiXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Misión: Imposible - Fallout',
@@ -459,11 +399,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Christopher McQuarrie',
                     'cast' => 'Tom Cruise, Henry Cavill, Ving Rhames',
                     'rating' => '7,7',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/wb49-oV0F78',
                 ),
-            30 =>
+            26 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMzg1MDk5NTMtZjQ5Mi00ZmRlLTg3ZTUtZTFlZGQ1YzBhMjcwXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Karate Kid: Legends',
@@ -474,11 +414,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Jonathan Entwistle',
                     'cast' => 'Jackie Chan, Ben Wang, Joshua Jackson',
                     'rating' => '6,5',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/AclxHKf3x30',
                 ),
-            31 =>
+            27 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNDQ2MGIyNDQtYjVhOS00ZjI1LWFmYzctMWI2MGZhZGFhZWM4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Untitled the Weeknd & Trey Edward Shults Project',
@@ -489,26 +429,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Trey Edward Shults',
                     'cast' => 'The Weeknd, Jenna Ortega, Barry Keoghan',
                     'rating' => '5,3',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/hg0oFI2egfo',
                 ),
-            32 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNTMyYzNiZjEtZTM3NC00OGRkLTkzMjEtZGI2NDcwZTk5NmNhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => 'The Brutalist',
-                    'year' => '2024',
-                    'summary' => 'Cuando el visionario arquitecto László Toth y su esposa Erzsébet huyen de la Europa de posguerra en 1947 para reconstruir su legado y ver el nacimiento de la América moderna, sus vidas cambian a causa de un misterioso y adinerado cliente.',
-                    'genres' => 'Drama',
-                    'runtime' => '3h 36m',
-                    'director' => 'Brady Corbet',
-                    'cast' => 'Adrien Brody, Felicity Jones, Guy Pearce',
-                    'rating' => '7,4',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            33 =>
+            28 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMjdkNzJlYzgtY2MwZC00NWFjLTgwMDgtOTJkY2Q3NjA3MjMzXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Ballerina',
@@ -519,11 +444,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Len Wiseman',
                     'cast' => 'Ana de Armas, Keanu Reeves, Ian McShane',
                     'rating' => '',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/0FSwsrFpkbw',
                 ),
-            34 =>
+            29 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BOWM4MjIxZmQtYzA3YS00YThiLWI5MjItZDM0YjZmNDFhZDA3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'The Legend of Ochi',
@@ -534,11 +459,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Isaiah Saxon',
                     'cast' => 'Helena Zengel, Willem Dafoe, Emily Watson',
                     'rating' => '6,0',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/_jTFLg3arYU',
                 ),
-            35 =>
+            30 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BN2FhYjgzYTctZDcyZS00MTdlLWIzYzUtOGIyMTYzZWJkYzc4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Confidencial (Black Bag)',
@@ -549,11 +474,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Steven Soderbergh',
                     'cast' => 'Michael Fassbender, Gustaf Skarsgård, Cate Blanchett',
                     'rating' => '6,8',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/AVFM-uAbPtA',
                 ),
-            36 =>
+            31 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNjQyMjNiMDEtOTFlNy00NmI3LTljMzctNDU5ZDI3N2EzNDFmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'La acompañante',
@@ -564,11 +489,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Drew Hancock',
                     'cast' => 'Sophie Thatcher, Jack Quaid, Lukas Gage',
                     'rating' => '6,9',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/22xmiGr9gNc',
                 ),
-            37 =>
+            32 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMGQ1MTAzNmItOWQ0Ny00MDJhLWJkZmMtYWY2MWY3OTE3MjU2XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Novocaine',
@@ -579,11 +504,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Dan Berk, Robert Olsen',
                     'cast' => 'Jack Quaid, Amber Midthunder, Ray Nicholson',
                     'rating' => '6,5',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/BmYcuswoQBY',
                 ),
-            38 =>
+            33 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNGJiMzU2M2MtMjMyNC00YmFmLTljYjgtNWIzNDI5ZjE2YjZjXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Cónclave',
@@ -594,11 +519,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Edward Berger',
                     'cast' => 'Ralph Fiennes, Stanley Tucci, John Lithgow',
                     'rating' => '7,4',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/aMiOsqSkcYg',
                 ),
-            39 =>
+            34 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMjIxODZlM2EtODU5Ny00OTFkLTgyNjAtNzNmMWJkNmRhZjZkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Gladiator II',
@@ -609,11 +534,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Ridley Scott',
                     'cast' => 'Paul Mescal, Denzel Washington, Pedro Pascal',
                     'rating' => '6,5',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/4rgYUipGJNo',
                 ),
-            40 =>
+            35 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMWUwYmJmNDYtNjJhNi00ZjZiLWFhNzktYjEyMWQ5NWM3MmE5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => '28 años después',
@@ -624,26 +549,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Danny Boyle',
                     'cast' => 'Jack O\'Connell, Ralph Fiennes, Aaron Taylor-Johnson',
                     'rating' => '',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/d-4F7jJUoOE',
                 ),
-            41 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BYjkyNmFiYTYtODE4Mi00ZWRlLWI3OWUtY2RjMmYxNzljYWM1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => 'Misión: Imposible - Nación secreta',
-                    'year' => '2015',
-                    'summary' => 'Ethan y su equipo asumen su misión más imposible hasta la fecha, erradicar al Sindicato, una organización internacional clandestina tan altamente cualificada como ellos, comprometida con la destrucción del FMI.',
-                    'genres' => 'Acción, Aventura, Suspense',
-                    'runtime' => '2h 11m',
-                    'director' => 'Christopher McQuarrie',
-                    'cast' => 'Tom Cruise, Rebecca Ferguson, Jeremy Renner',
-                    'rating' => '7,4',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            42 =>
+            36 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BY2E5YjE2YTQtZGIxYi00YTU4LTk3YzItYmMyZTM3M2I5ZTM3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Cómo entrenar a tu dragón',
@@ -654,11 +564,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Dean DeBlois',
                     'cast' => 'Mason Thames, Nico Parker, Gerard Butler',
                     'rating' => '',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/liGB1ssYn38',
                 ),
-            43 =>
+            37 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BOTEwOTdhMTEtMzkyZS00MzdhLTk0N2ItMzBjZjA0OTg2NjZlXkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg',
                     'title' => 'Die My Love',
@@ -669,11 +579,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Lynne Ramsay',
                     'cast' => 'Jennifer Lawrence, Robert Pattinson, Nick Nolte',
                     'rating' => '6,5',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/yGILHjmOEjw',
                 ),
-            44 =>
+            38 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNzY1MzdjMjYtNDJiZS00N2U4LWI0MWQtZTRiZWYxMzU3ZmI4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Misión: Imposible 3',
@@ -684,11 +594,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'J.J. Abrams',
                     'cast' => 'Tom Cruise, Michelle Monaghan, Ving Rhames',
                     'rating' => '6,9',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/3iCoDJaFPOA',
                 ),
-            45 =>
+            39 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BZmI5NjIyZmMtMjBhOC00NGE0LTkwZDYtMzFkMDY1MDQ0NWQxXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Destino final 2',
@@ -699,11 +609,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'David R. Ellis',
                     'cast' => 'A.J. Cook, Ali Larter, Tony Todd',
                     'rating' => '6,2',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/7vZqVooni2o',
                 ),
-            46 =>
+            40 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNTViNGI0MzMtYTJlMS00Y2NiLTg5MDYtZTE3NTY1OWY3YmU3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Robot salvaje',
@@ -714,11 +624,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Chris Sanders',
                     'cast' => 'Lupita Nyong\'o, Pedro Pascal, Kit Connor',
                     'rating' => '8,2',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/UPgUIORqja4',
                 ),
-            47 =>
+            41 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BZWY5ZmYyMDctZTA3YS00ODY1LTgyMjEtOTA3YmNhMmY2NWNlXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Misión: Imposible - Protocolo fantasma',
@@ -729,41 +639,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Brad Bird',
                     'cast' => 'Tom Cruise, Jeremy Renner, Simon Pegg',
                     'rating' => '7,4',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/RIcuey5eHgc',
                 ),
-            48 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMDgzZTgzOTEtMTllZS00ZDdjLWE4NWUtOTkwOTk0Mjk3ODA5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => 'Eddington',
-                    'year' => '2025',
-                    'summary' => 'Una pareja varada en un pequeño pueblo de Nuevo México durante la pandemia encuentra que la comunidad inicialmente acogedora se vuelve siniestra al caer la noche.',
-                    'genres' => 'Comedia, Drama, Del oeste',
-                    'runtime' => '2h 28m',
-                    'director' => 'Ari Aster',
-                    'cast' => 'Joaquin Phoenix, Deirdre O\'Connell, Emma Stone',
-                    'rating' => '5,8',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            49 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BYTI4NjcwODMtZGVhMi00ODhhLWIwODItZTQ4MmY0ZmU5OTliXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => 'The Last Rodeo',
-                    'year' => '2025',
-                    'summary' => 'Un ex jinete de rodeo de 50 años distanciado de su hija decide montar de nuevo cuando surge una crisis con su nieto, enfrentando sus demonios y considerando el máximo sacrificio por su familia.',
-                    'genres' => 'Drama',
-                    'runtime' => '1h 56m',
-                    'director' => 'Jon Avnet',
-                    'cast' => 'Neal McDonough, Mykelti Williamson, Sarah Jones',
-                    'rating' => '6,9',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            50 =>
+            42 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BOWM0YjkwNTYtNDYxNS00NTk5LWEwYzEtN2U0MzQyYTA3ODkyXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Misión: Imposible 2',
@@ -774,11 +654,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'John Woo',
                     'cast' => 'Tom Cruise, Dougray Scott, Thandiwe Newton',
                     'rating' => '6,1',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            51 =>
+            43 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BZTlhYTk1ZTEtOWY3NC00NWQ5LTlkOTctNjQ3ZDYyZGE5ZWNlXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Bring Her Back',
@@ -789,11 +669,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Danny Philippou, Michael Philippou',
                     'cast' => 'Billy Barratt, Sally Hawkins, Mischa Heywood',
                     'rating' => '7,7',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            52 =>
+            44 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BYTA2NTA5NDYtMzlkOC00MTQxLWI0NDQtMzk2M2YzMGE4MTkxXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'A Complete Unknown',
@@ -804,11 +684,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'James Mangold',
                     'cast' => 'Timothée Chalamet, Edward Norton, Elle Fanning',
                     'rating' => '7,4',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            53 =>
+            45 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNmE0NGQ5NmUtNWY3OS00MjRjLTgyZTYtNWY3Y2E3YTEzYzg0XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Anora',
@@ -819,11 +699,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Sean Baker',
                     'cast' => 'Mikey Madison, Paul Weissman, Yura Borisov',
                     'rating' => '7,5',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            54 =>
+            46 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMDBhNTg1MWMtMDc5Ni00YTk1LWFjNGUtMmE2Y2Q5MGQ2M2Q2XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Otro pequeño favor',
@@ -834,11 +714,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Paul Feig',
                     'cast' => 'Blake Lively, Anna Kendrick, Allison Janney',
                     'rating' => '5,3',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            55 =>
+            47 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMTgyOTExNDc1M15BMl5BanBnXkFtZTcwMDA0MTA4NQ@@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Destino final 5',
@@ -849,11 +729,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Steven Quale',
                     'cast' => 'Nicholas D\'Agosto, Emma Bell, Arlen Escarpeta',
                     'rating' => '5,9',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            56 =>
+            48 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BOWM1NWVmMGQtZTUzNC00NzAwLWIzMmMtMmUwMmQwYzY3MjVkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Destino final 3',
@@ -864,11 +744,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'James Wong',
                     'cast' => 'Mary Elizabeth Winstead, Ryan Merriman, Kris Lemche',
                     'rating' => '5,9',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            57 =>
+            49 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNGQ0YTY2OWEtMmFhZC00MjFjLWEwODMtMjFkMjRmZjNlNGRhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'El destino final',
@@ -879,11 +759,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'David R. Ellis',
                     'cast' => 'Nick Zano, Krista Allen, Andrew Fiscella',
                     'rating' => '5,1',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            58 =>
+            50 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNDcwMmIwMTUtZGNkZC00Nzk0LTgzOWQtYTJiMTVlMzRlMmJkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Sentimental Value',
@@ -894,11 +774,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Joachim Trier',
                     'cast' => 'Renate Reinsve, Stellan Skarsgård, Inga Ibsdotter Lilleaas',
                     'rating' => '7,9',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            59 =>
+            51 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BZTBhNTE0OTgtMTkxYy00OTZhLWE2MjQtZDNkMjgyNzE4ODA1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'La cita',
@@ -909,11 +789,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Christopher Landon',
                     'cast' => 'Meghann Fahy, Brandon Sklenar, Violett Beane',
                     'rating' => '6,1',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            60 =>
+            52 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BZTU1MzU1YzctMDQ1MS00ZmRhLWFkZmYtZmNjM2YwYzIwMDgxXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'The Hunger Games: Sunrise on the Reaping',
@@ -924,11 +804,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Francis Lawrence',
                     'cast' => 'Elle Fanning, Jesse Plemons, Ralph Fiennes',
                     'rating' => '',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            61 =>
+            53 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BOWMyMDk5MjAtNDM4Mi00Y2Y3LTg3YTktNzk3NjAxNDc2OTdmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Los 4 Fantásticos: Primeros pasos',
@@ -939,11 +819,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Matt Shakman',
                     'cast' => 'Pedro Pascal, Vanessa Kirby, Joseph Quinn',
                     'rating' => '',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            62 =>
+            54 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMWJkMzMyZmYtMjc1NC00ODBlLWJjMzUtZWJhMDc4NjVkYzU4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'La sustancia',
@@ -954,11 +834,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Coralie Fargeat',
                     'cast' => 'Demi Moore, Margaret Qualley, Dennis Quaid',
                     'rating' => '7,2',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            63 =>
+            55 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMTA1MjE0Nzk4MDleQTJeQWpwZ15BbWU4MDA0NjIxMjAx._V1_QL75_UY207_CR6,0,140,207_.jpg',
                     'title' => 'Cadena perpetua',
@@ -969,266 +849,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Frank Darabont',
                     'cast' => 'Tim Robbins, Morgan Freeman, Bob Gunton',
                     'rating' => '9,3',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            64 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BYjVkMzI2MjAtYzA3NC00OGE1LWEyZDMtODc0YTc5NTZjYzFiXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => 'Exterritorial',
-                    'year' => '2025',
-                    'summary' => 'Cuando el hijo de un soldado desaparece en un consulado de los Estados Unidos, ella permanece ilegalmente en las instalaciones para buscarlo y, sin saberlo, se ve envuelta en una peligrosa conspiración.',
-                    'genres' => 'Acción, Misterio, Suspense',
-                    'runtime' => '1h 49m',
-                    'director' => 'Christian Zübert',
-                    'cast' => 'Jeanne Goursaud, Dougray Scott, Lera Abova',
-                    'rating' => '5,7',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            65 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNGUzY2Y0ZmItZDE4Ny00OGE2LWI0MjQtNzY2YjRmNTRkMTZiXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => 'Nosferatu',
-                    'year' => '2024',
-                    'summary' => 'Una historia gótica de obsesión entre una joven encantada en la Alemania del siglo XIX y el antiguo vampiro de Transilvania que la acecha y trae consigo un horror incalculable.',
-                    'genres' => 'Fantasía, Terror, Misterio',
-                    'runtime' => '2h 12m',
-                    'director' => 'Robert Eggers',
-                    'cast' => 'Lily-Rose Depp, Nicholas Hoult, Bill Skarsgård',
-                    'rating' => '7,2',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            66 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNDRjY2E0ZmEtN2QwNi00NTEwLWI3MWItODNkMGYwYWFjNGE0XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => 'Capitán América: Brave New World',
-                    'year' => '2025',
-                    'summary' => 'La trama se mantiene en secreto. Cuarta película de la franquicia del Capitán América.',
-                    'genres' => 'Acción, Aventura, Ciencia ficción',
-                    'runtime' => '1h 58m',
-                    'director' => 'Julius Onah',
-                    'cast' => 'Anthony Mackie, Harrison Ford, Danny Ramirez',
-                    'rating' => '5,7',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            67 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMTU0YjAxOTctMzY3MC00M2Q2LTlhMDItZDk0YjhjMzViYWU0XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => 'Babygirl',
-                    'year' => '2024',
-                    'summary' => 'A pesar del riesgo y los prejuicios, una directora ejecutiva muy exitosa comienza una aventura ilícita con su becario mucho más joven.',
-                    'genres' => 'Drama, Romance, Suspense',
-                    'runtime' => '1h 54m',
-                    'director' => 'Halina Reijn',
-                    'cast' => 'Nicole Kidman, Harris Dickinson, Antonio Banderas',
-                    'rating' => '5,9',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            68 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BOTQ5Y2QyYTktYmFmZi00NWJlLWE0MzgtYTA4M2I0ZjQwZjcxXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => 'El abismo secreto',
-                    'year' => '2025',
-                    'summary' => 'Dos jóvenes muy peligrosos que, a pesar del mundo corrupto y letal en el que se mueven, encuentran un alma gemela el uno en el otro.',
-                    'genres' => 'Acción, Aventura, Terror',
-                    'runtime' => '2h 7m',
-                    'director' => 'Scott Derrickson',
-                    'cast' => 'Miles Teller, Anya Taylor-Joy, Sigourney Weaver',
-                    'rating' => '6,7',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            69 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BY2IzOWJlMzktYmUxMy00MmY2LWJiZTgtYTQ0MjQyOGRmNWNiXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => 'Heretic (Hereje)',
-                    'year' => '2024',
-                    'summary' => 'Sigue a dos jóvenes religiosas que se involucran en un juego del gato y el ratón en la casa de un extraño.',
-                    'genres' => 'Terror, Suspense',
-                    'runtime' => '1h 51m',
-                    'director' => 'Scott Beck, Bryan Woods',
-                    'cast' => 'Hugh Grant, Sophie Thatcher, Chloe East',
-                    'rating' => '7,0',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            70 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNmQxMTI1YmEtOGY3Yi00NzVlLWEzMjAtYTI1NWZkNDFiMDg1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => 'Materialistas',
-                    'year' => '2025',
-                    'summary' => 'Una joven y ambiciosa casamentera de la ciudad de Nueva York se encuentra dividida entre su pareja perfecta y su ex imperfecto.',
-                    'genres' => 'Comedia, Romance',
-                    'runtime' => '1h 49m',
-                    'director' => 'Celine Song',
-                    'cast' => 'Dakota Johnson, Chris Evans, Pedro Pascal',
-                    'rating' => '',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            71 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMjRhOTgwOTEtZmNhOC00OTc1LTlhODYtZDdkYzJiMmZhYmYxXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => '28 días después',
-                    'year' => '2002',
-                    'summary' => 'Cuatro semanas después de que un misterioso e incurable virus se extienda por todo el Reino Unido, un puñado de supervivientes intenta encontrar refugio.',
-                    'genres' => 'Drama, Terror, Ciencia ficción',
-                    'runtime' => '1h 53m',
-                    'director' => 'Danny Boyle',
-                    'cast' => 'Cillian Murphy, Naomie Harris, Christopher Eccleston',
-                    'rating' => '7,5',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            72 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMDBkZDNjMWEtOTdmMi00NmExLTg5MmMtNTFlYTJlNWY5YTdmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => 'Top Gun: Maverick',
-                    'year' => '2022',
-                    'summary' => 'Después de más de treinta años de servicio como uno de los mejores aviadores de la Armada, Pete Mitchell está donde pertenece, forzando los límites como valiente piloto de pruebas y esquivando el avance de rango que lo dejaría en tierra.',
-                    'genres' => 'Acción, Drama',
-                    'runtime' => '2h 10m',
-                    'director' => 'Joseph Kosinski',
-                    'cast' => 'Tom Cruise, Jennifer Connelly, Miles Teller',
-                    'rating' => '8,2',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            73 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNjUzMjhkZjktNTU5Mi00MzhmLWJhMTQtZjhkYjczOTEzM2M5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => 'Death of a Unicorn',
-                    'year' => '2025',
-                    'summary' => 'El dúo padre-hija, Riley y Elliot, atropellan a un unicornio con su coche y lo llevan al refugio natural de un director general farmacéutico mega-rico.',
-                    'genres' => 'Comedia, Fantasía, Terror',
-                    'runtime' => '1h 47m',
-                    'director' => 'Alex Scharfman',
-                    'cast' => 'Paul Rudd, Jenna Ortega, Will Poulter',
-                    'rating' => '5,9',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            74 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BOWNiMGQxYzAtNzc1Yy00NTNjLWIwNmEtNzcyZjk2ZDYyMzM1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => 'El contable',
-                    'year' => '2016',
-                    'summary' => 'Cuando un experto en matemáticas blanquea los libros de un nuevo cliente, el Departamento del Tesoro se acerca a sus actividades, y el número de cadáveres empieza a aumentar.',
-                    'genres' => 'Acción, Crimen, Drama',
-                    'runtime' => '2h 8m',
-                    'director' => 'Gavin O\'Connor',
-                    'cast' => 'Ben Affleck, Anna Kendrick, J.K. Simmons',
-                    'rating' => '7,3',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            75 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNjQyOTRiYTQtNzU0MS00ZGM2LWE4MTktODI5ZjZiN2NkYjYyXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => 'Raid 2',
-                    'year' => '2025',
-                    'summary' => 'En Rajastán 1989, el oficial Patnaik efectúa una redada sin éxito. Tras solicitar un soborno, le trasladan a Bhoj, donde investiga a Dada Bhai, figura respetada. Suspendido tras otra redada, descubre secretos.',
-                    'genres' => 'Crimen, Drama, Suspense',
-                    'runtime' => '2h 25m',
-                    'director' => 'Raj Kumar Gupta',
-                    'cast' => 'Ajay Devgn, Riteish Deshmukh, Vaani Kapoor',
-                    'rating' => '7,2',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            76 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BZjlkZWQ2YjAtOTZjNi00MmY1LTlkMDMtYTUxODU5Y2Y0MDY4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => 'Agente secreto',
-                    'year' => '2025',
-                    'summary' => 'Bajo el espectro amenazador del Brasil de 1977, conocemos a Marcelo, un hombre de unos 40 años que se ha mudado recientemente a Recife, en la costa noreste de Brasil, para escapar de un pasado violento.',
-                    'genres' => 'Crimen, Drama, Historia',
-                    'runtime' => '2h 38m',
-                    'director' => 'Kleber Mendonça Filho',
-                    'cast' => 'Wagner Moura, Maria Fernanda Cândido, Gabriel Leone',
-                    'rating' => '7,9',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            77 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BODE1M2NhOTYtMmFmNi00NTUwLWI5YzEtN2ZhNDhjMWZmNWViXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => 'Zootrópolis 2',
-                    'year' => '2025',
-                    'summary' => 'La policía coneja Judy Hopps y su amigo el zorro Nick Wilde vuelven a unirse para resolver su caso más peligroso y complejo.',
-                    'genres' => 'Animación, Acción, Aventura',
-                    'runtime' => '',
-                    'director' => 'Jared Bush, Byron Howard',
-                    'cast' => 'Jason Bateman, Quinta Brunson, Fortune Feimster',
-                    'rating' => '',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            78 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMzQ3OTI0ZTUtMzkwMC00MzZhLWJiZmYtODFmZjZmMmJiMTc5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => 'Alpha',
-                    'year' => '2025',
-                    'summary' => 'Alpha, de 13 años, es una adolescente problemática que vive sola con su madre. Su mundo se derrumba el día que regresa de la escuela con un tatuaje en el brazo.',
-                    'genres' => 'Drama',
-                    'runtime' => '2h 8m',
-                    'director' => 'Julia Ducournau',
-                    'cast' => 'Tahar Rahim, Golshifteh Farahani, Mélissa Boros',
-                    'rating' => '5,2',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            79 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BODM2NTUxOGMtM2ZkYS00MjM3LTkzYzEtZjdkNmQ1ZTBhMWY3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => 'Un simple accidente',
-                    'year' => '2025',
-                    'summary' => 'Un pequeño percance provocó una reacción en cadena de problemas cada vez mayores.',
-                    'genres' => 'Acción, Aventura, Crimen',
-                    'runtime' => '1h 41m',
-                    'director' => 'Jafar Panahi',
-                    'cast' => 'Vahid Mobasseri, Mariam Afshari, Ebrahim Azizi',
-                    'rating' => '7,4',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            80 =>
-                array (
-                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BYjgzMTgyNzYtZjMzZS00NGRmLWE2YTAtMDQ4NTA3N2FmNmNhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
-                    'title' => 'Amateur',
-                    'year' => '2025',
-                    'summary' => 'Sigue a un criptógrafo de la CIA, que consigue chantajear a su agencia para que le entrenen y le dejen ir tras un grupo de terroristas que mataron a su mujer en Londres.',
-                    'genres' => 'Acción, Suspense',
-                    'runtime' => '2h 2m',
-                    'director' => 'James Hawes',
-                    'cast' => 'Rami Malek, Rachel Brosnahan, Jon Bernthal',
-                    'rating' => '6,7',
-                    'created_at' => '',
-                    'updated_at' => '',
-                    'trailer' => '',
-                ),
-            81 =>
+            56 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Interstellar',
@@ -1239,11 +864,266 @@ class MoviesSeeder extends Seeder
                     'director' => 'Christopher Nolan',
                     'cast' => 'Matthew McConaughey, Anne Hathaway, Jessica Chastain',
                     'rating' => '8,7',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            82 =>
+            57 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BYjVkMzI2MjAtYzA3NC00OGE1LWEyZDMtODc0YTc5NTZjYzFiXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => 'Exterritorial',
+                    'year' => '2025',
+                    'summary' => 'Cuando el hijo de un soldado desaparece en un consulado de los Estados Unidos, ella permanece ilegalmente en las instalaciones para buscarlo y, sin saberlo, se ve envuelta en una peligrosa conspiración.',
+                    'genres' => 'Acción, Misterio, Suspense',
+                    'runtime' => '1h 49m',
+                    'director' => 'Christian Zübert',
+                    'cast' => 'Jeanne Goursaud, Dougray Scott, Lera Abova',
+                    'rating' => '5,7',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => '',
+                ),
+            58 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNGUzY2Y0ZmItZDE4Ny00OGE2LWI0MjQtNzY2YjRmNTRkMTZiXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => 'Nosferatu',
+                    'year' => '2024',
+                    'summary' => 'Una historia gótica de obsesión entre una joven encantada en la Alemania del siglo XIX y el antiguo vampiro de Transilvania que la acecha y trae consigo un horror incalculable.',
+                    'genres' => 'Fantasía, Terror, Misterio',
+                    'runtime' => '2h 12m',
+                    'director' => 'Robert Eggers',
+                    'cast' => 'Lily-Rose Depp, Nicholas Hoult, Bill Skarsgård',
+                    'rating' => '7,2',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => '',
+                ),
+            59 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNDRjY2E0ZmEtN2QwNi00NTEwLWI3MWItODNkMGYwYWFjNGE0XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => 'Capitán América: Brave New World',
+                    'year' => '2025',
+                    'summary' => 'La trama se mantiene en secreto. Cuarta película de la franquicia del Capitán América.',
+                    'genres' => 'Acción, Aventura, Ciencia ficción',
+                    'runtime' => '1h 58m',
+                    'director' => 'Julius Onah',
+                    'cast' => 'Anthony Mackie, Harrison Ford, Danny Ramirez',
+                    'rating' => '5,7',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => '',
+                ),
+            60 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMTU0YjAxOTctMzY3MC00M2Q2LTlhMDItZDk0YjhjMzViYWU0XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => 'Babygirl',
+                    'year' => '2024',
+                    'summary' => 'A pesar del riesgo y los prejuicios, una directora ejecutiva muy exitosa comienza una aventura ilícita con su becario mucho más joven.',
+                    'genres' => 'Drama, Romance, Suspense',
+                    'runtime' => '1h 54m',
+                    'director' => 'Halina Reijn',
+                    'cast' => 'Nicole Kidman, Harris Dickinson, Antonio Banderas',
+                    'rating' => '5,9',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => '',
+                ),
+            61 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BOTQ5Y2QyYTktYmFmZi00NWJlLWE0MzgtYTA4M2I0ZjQwZjcxXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => 'El abismo secreto',
+                    'year' => '2025',
+                    'summary' => 'Dos jóvenes muy peligrosos que, a pesar del mundo corrupto y letal en el que se mueven, encuentran un alma gemela el uno en el otro.',
+                    'genres' => 'Acción, Aventura, Terror',
+                    'runtime' => '2h 7m',
+                    'director' => 'Scott Derrickson',
+                    'cast' => 'Miles Teller, Anya Taylor-Joy, Sigourney Weaver',
+                    'rating' => '6,7',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => '',
+                ),
+            62 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BY2IzOWJlMzktYmUxMy00MmY2LWJiZTgtYTQ0MjQyOGRmNWNiXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => 'Heretic (Hereje)',
+                    'year' => '2024',
+                    'summary' => 'Sigue a dos jóvenes religiosas que se involucran en un juego del gato y el ratón en la casa de un extraño.',
+                    'genres' => 'Terror, Suspense',
+                    'runtime' => '1h 51m',
+                    'director' => 'Scott Beck, Bryan Woods',
+                    'cast' => 'Hugh Grant, Sophie Thatcher, Chloe East',
+                    'rating' => '7,0',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => '',
+                ),
+            63 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNmQxMTI1YmEtOGY3Yi00NzVlLWEzMjAtYTI1NWZkNDFiMDg1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => 'Materialistas',
+                    'year' => '2025',
+                    'summary' => 'Una joven y ambiciosa casamentera de la ciudad de Nueva York se encuentra dividida entre su pareja perfecta y su ex imperfecto.',
+                    'genres' => 'Comedia, Romance',
+                    'runtime' => '1h 49m',
+                    'director' => 'Celine Song',
+                    'cast' => 'Dakota Johnson, Chris Evans, Pedro Pascal',
+                    'rating' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => '',
+                ),
+            64 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMjRhOTgwOTEtZmNhOC00OTc1LTlhODYtZDdkYzJiMmZhYmYxXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => '28 días después',
+                    'year' => '2002',
+                    'summary' => 'Cuatro semanas después de que un misterioso e incurable virus se extienda por todo el Reino Unido, un puñado de supervivientes intenta encontrar refugio.',
+                    'genres' => 'Drama, Terror, Ciencia ficción',
+                    'runtime' => '1h 53m',
+                    'director' => 'Danny Boyle',
+                    'cast' => 'Cillian Murphy, Naomie Harris, Christopher Eccleston',
+                    'rating' => '7,5',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => '',
+                ),
+            65 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMDBkZDNjMWEtOTdmMi00NmExLTg5MmMtNTFlYTJlNWY5YTdmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => 'Top Gun: Maverick',
+                    'year' => '2022',
+                    'summary' => 'Después de más de treinta años de servicio como uno de los mejores aviadores de la Armada, Pete Mitchell está donde pertenece, forzando los límites como valiente piloto de pruebas y esquivando el avance de rango que lo dejaría en tierra.',
+                    'genres' => 'Acción, Drama',
+                    'runtime' => '2h 10m',
+                    'director' => 'Joseph Kosinski',
+                    'cast' => 'Tom Cruise, Jennifer Connelly, Miles Teller',
+                    'rating' => '8,2',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => '',
+                ),
+            66 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNjUzMjhkZjktNTU5Mi00MzhmLWJhMTQtZjhkYjczOTEzM2M5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => 'Death of a Unicorn',
+                    'year' => '2025',
+                    'summary' => 'El dúo padre-hija, Riley y Elliot, atropellan a un unicornio con su coche y lo llevan al refugio natural de un director general farmacéutico mega-rico.',
+                    'genres' => 'Comedia, Fantasía, Terror',
+                    'runtime' => '1h 47m',
+                    'director' => 'Alex Scharfman',
+                    'cast' => 'Paul Rudd, Jenna Ortega, Will Poulter',
+                    'rating' => '5,9',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => '',
+                ),
+            67 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BOWNiMGQxYzAtNzc1Yy00NTNjLWIwNmEtNzcyZjk2ZDYyMzM1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => 'El contable',
+                    'year' => '2016',
+                    'summary' => 'Cuando un experto en matemáticas blanquea los libros de un nuevo cliente, el Departamento del Tesoro se acerca a sus actividades, y el número de cadáveres empieza a aumentar.',
+                    'genres' => 'Acción, Crimen, Drama',
+                    'runtime' => '2h 8m',
+                    'director' => 'Gavin O\'Connor',
+                    'cast' => 'Ben Affleck, Anna Kendrick, J.K. Simmons',
+                    'rating' => '7,3',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => '',
+                ),
+            68 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNjQyOTRiYTQtNzU0MS00ZGM2LWE4MTktODI5ZjZiN2NkYjYyXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => 'Raid 2',
+                    'year' => '2025',
+                    'summary' => 'En Rajastán 1989, el oficial Patnaik efectúa una redada sin éxito. Tras solicitar un soborno, le trasladan a Bhoj, donde investiga a Dada Bhai, figura respetada. Suspendido tras otra redada, descubre secretos.',
+                    'genres' => 'Crimen, Drama, Suspense',
+                    'runtime' => '2h 25m',
+                    'director' => 'Raj Kumar Gupta',
+                    'cast' => 'Ajay Devgn, Riteish Deshmukh, Vaani Kapoor',
+                    'rating' => '7,2',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => '',
+                ),
+            69 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BZjlkZWQ2YjAtOTZjNi00MmY1LTlkMDMtYTUxODU5Y2Y0MDY4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => 'Agente secreto',
+                    'year' => '2025',
+                    'summary' => 'Bajo el espectro amenazador del Brasil de 1977, conocemos a Marcelo, un hombre de unos 40 años que se ha mudado recientemente a Recife, en la costa noreste de Brasil, para escapar de un pasado violento.',
+                    'genres' => 'Crimen, Drama, Historia',
+                    'runtime' => '2h 38m',
+                    'director' => 'Kleber Mendonça Filho',
+                    'cast' => 'Wagner Moura, Maria Fernanda Cândido, Gabriel Leone',
+                    'rating' => '7,9',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => '',
+                ),
+            70 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BODE1M2NhOTYtMmFmNi00NTUwLWI5YzEtN2ZhNDhjMWZmNWViXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => 'Zootrópolis 2',
+                    'year' => '2025',
+                    'summary' => 'La policía coneja Judy Hopps y su amigo el zorro Nick Wilde vuelven a unirse para resolver su caso más peligroso y complejo.',
+                    'genres' => 'Animación, Acción, Aventura',
+                    'runtime' => '',
+                    'director' => 'Jared Bush, Byron Howard',
+                    'cast' => 'Jason Bateman, Quinta Brunson, Fortune Feimster',
+                    'rating' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => '',
+                ),
+            71 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMzQ3OTI0ZTUtMzkwMC00MzZhLWJiZmYtODFmZjZmMmJiMTc5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => 'Alpha',
+                    'year' => '2025',
+                    'summary' => 'Alpha, de 13 años, es una adolescente problemática que vive sola con su madre. Su mundo se derrumba el día que regresa de la escuela con un tatuaje en el brazo.',
+                    'genres' => 'Drama',
+                    'runtime' => '2h 8m',
+                    'director' => 'Julia Ducournau',
+                    'cast' => 'Tahar Rahim, Golshifteh Farahani, Mélissa Boros',
+                    'rating' => '5,2',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => '',
+                ),
+            72 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BODM2NTUxOGMtM2ZkYS00MjM3LTkzYzEtZjdkNmQ1ZTBhMWY3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => 'Un simple accidente',
+                    'year' => '2025',
+                    'summary' => 'Un pequeño percance provocó una reacción en cadena de problemas cada vez mayores.',
+                    'genres' => 'Acción, Aventura, Crimen',
+                    'runtime' => '1h 41m',
+                    'director' => 'Jafar Panahi',
+                    'cast' => 'Vahid Mobasseri, Mariam Afshari, Ebrahim Azizi',
+                    'rating' => '7,4',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => '',
+                ),
+            73 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BYjgzMTgyNzYtZjMzZS00NGRmLWE2YTAtMDQ4NTA3N2FmNmNhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => 'Amateur',
+                    'year' => '2025',
+                    'summary' => 'Sigue a un criptógrafo de la CIA, que consigue chantajear a su agencia para que le entrenen y le dejen ir tras un grupo de terroristas que mataron a su mujer en Londres.',
+                    'genres' => 'Acción, Suspense',
+                    'runtime' => '2h 2m',
+                    'director' => 'James Hawes',
+                    'cast' => 'Rami Malek, Rachel Brosnahan, Jon Bernthal',
+                    'rating' => '6,7',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => '',
+                ),
+            74 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNjNhODY5OWEtZjMxNy00NzFhLWIzOTQtZTNmYjUwOGRiMzYwXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'The Diplomat',
@@ -1254,11 +1134,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Shivam Nair',
                     'cast' => 'John Abraham, Sadia Khateeb, Kumud Mishra',
                     'rating' => '7,1',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            83 =>
+            75 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNTljNjllNDAtMzc0MS00ZGExLThlOTktOTRlNzc3YjA3ZWFlXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'El padrino',
@@ -1269,11 +1149,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Francis Ford Coppola',
                     'cast' => 'Marlon Brando, Al Pacino, James Caan',
                     'rating' => '9,2',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            84 =>
+            76 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BZmJhZjI4ODktNjI3MC00N2U2LTg0YzYtZTgzNTk4NDJkNmVhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'The Surrender',
@@ -1284,11 +1164,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Julia Max',
                     'cast' => 'Colby Minifie, Kate Burton, Chelsea Alden',
                     'rating' => '5,5',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            85 =>
+            77 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNzUzYmUyZDYtYTM5My00MjhkLTk2NDEtZmRiODEzOWE1MzRmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Un pequeño favor',
@@ -1299,11 +1179,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Paul Feig',
                     'cast' => 'Anna Kendrick, Blake Lively, Henry Golding',
                     'rating' => '6,8',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            86 =>
+            78 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BOGUwNzQwMzYtZTkyYi00OTM3LWJiOGEtNzVkN2UxOGZlMmE3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Clown in a Cornfield',
@@ -1314,11 +1194,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Eli Craig',
                     'cast' => 'Katie Douglas, Aaron Abrams, Carson MacCormac',
                     'rating' => '6,2',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            87 =>
+            79 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNzZhMTc5MWUtOTE2MS00MjUwLTljYWEtYTk1ZmVjNzhmMzYzXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'The Monkey',
@@ -1329,11 +1209,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Osgood Perkins',
                     'cast' => 'Theo James, Tatiana Maslany, Christian Convery',
                     'rating' => '6,0',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            88 =>
+            80 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BZGRhNjU2NWEtNDNmYy00YmEwLWFiMTEtZDA5YmFmYmJkMThhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Familia al instante',
@@ -1344,11 +1224,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Sean Anders',
                     'cast' => 'Mark Wahlberg, Rose Byrne, Isabela Merced',
                     'rating' => '7,3',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            89 =>
+            81 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNTQwYjM2YjUtOWM0Ni00ODgyLTg4NjQtODU2NDI5YjM2ZWQzXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Bitelchús Bitelchús',
@@ -1359,11 +1239,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Tim Burton',
                     'cast' => 'Michael Keaton, Winona Ryder, Catherine O\'Hara',
                     'rating' => '6,6',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            90 =>
+            82 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNzBiMTQ0YjMtZDRhMC00ZDU4LTk3MDMtNWQxOGMwMjQzYjc4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Dune: Parte dos',
@@ -1374,11 +1254,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Denis Villeneuve',
                     'cast' => 'Timothée Chalamet, Zendaya, Rebecca Ferguson',
                     'rating' => '8,5',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            91 =>
+            83 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BZDZlZjY4NGMtNWIwNC00OWVhLTkyMmUtODI5ZDY4MmFhODllXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Gladiator (El gladiador)',
@@ -1389,11 +1269,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Ridley Scott',
                     'cast' => 'Russell Crowe, Joaquin Phoenix, Connie Nielsen',
                     'rating' => '8,5',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            92 =>
+            84 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMDVlMTQyYTgtNjUyZS00Y2E1LTlmMTktMDJkM2E1YzFiMzQxXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Bala perdida',
@@ -1404,11 +1284,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Darren Aronofsky',
                     'cast' => 'Austin Butler, Zoë Kravitz, Vincent D\'Onofrio',
                     'rating' => '',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            93 =>
+            85 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNTQxYmM1NzQtY2FiZS00MzRhLTljZDYtZjRmMGNiMWI3NTQxXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Origen',
@@ -1419,11 +1299,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Christopher Nolan',
                     'cast' => 'Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page',
                     'rating' => '8,8',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            94 =>
+            86 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BZWFhZDJiODYtZTA5My00NWYyLTgzY2YtOTUwMGYxZTFkYzdjXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Rosario',
@@ -1434,11 +1314,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Felipe Vargas',
                     'cast' => 'David Dastmalchian, Emeraude Toubia, José Zúñiga',
                     'rating' => '4,4',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            95 =>
+            87 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNmRmMjc5MWMtMzZmMy00NTYzLTgwZDQtNTAyMmNlYmIxOTg2XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Las cuatro estaciones',
@@ -1449,11 +1329,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Alan Alda',
                     'cast' => 'Alan Alda, Carol Burnett, Len Cariou',
                     'rating' => '6,8',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            96 =>
+            88 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'El caballero oscuro',
@@ -1464,11 +1344,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Christopher Nolan',
                     'cast' => 'Christian Bale, Heath Ledger, Aaron Eckhart',
                     'rating' => '9,0',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            97 =>
+            89 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNTFlZDI1YWQtMTVjNy00YWU1LTg2YjktMTlhYmRiYzQ3NTVhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Oppenheimer',
@@ -1479,11 +1359,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Christopher Nolan',
                     'cast' => 'Cillian Murphy, Emily Blunt, Matt Damon',
                     'rating' => '8,3',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            98 =>
+            90 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BOWFjMGIwNDgtODE5MS00ZWVkLTlhNzgtMDI1ZDM1OWMyYzY4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'La evaluación',
@@ -1494,11 +1374,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'Fleur Fortune',
                     'cast' => 'Alicia Vikander, Elizabeth Olsen, Himesh Patel',
                     'rating' => '6,6',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            99 =>
+            91 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNGU3YTdiM2EtY2Y3MC00NTIzLWEzYzYtM2IxZDNhZjkwNjU1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'La guerra de las galaxias',
@@ -1509,11 +1389,11 @@ class MoviesSeeder extends Seeder
                     'director' => 'George Lucas',
                     'cast' => 'Mark Hamill, Harrison Ford, Carrie Fisher',
                     'rating' => '8,6',
-                    'created_at' => '',
-                    'updated_at' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
                     'trailer' => '',
                 ),
-            100 =>
+            92 =>
                 array (
                     'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMGNiN2RlZTMtMTkyZC00YjkwLTgyY2QtMDg1ZDNhODQwNWM4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
                     'title' => 'Avengers: Doomsday',
@@ -1524,9 +1404,129 @@ class MoviesSeeder extends Seeder
                     'director' => 'Anthony Russo, Joe Russo',
                     'cast' => 'Robert Downey Jr., Pedro Pascal, Chris Hemsworth',
                     'rating' => '6,0',
-                    'created_at' => '',
-                    'updated_at' => '7/26/2025 5:42',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-26 05:42:00',
                     'trailer' => '',
+                ),
+            93 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BOWRiOThkM2YtYzI4NS00OWViLTk0ODMtMjNlNDYyZWQ3MzNjXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg',
+                    'title' => 'F1',
+                    'year' => '2025',
+                    'summary' => 'Sigue a un piloto de Fórmula Uno que sale de su retiro para convertirse en mentor y formar equipo con un piloto más joven.',
+                    'genres' => 'Acción, Drama, Deporte',
+                    'runtime' => '2h 35m',
+                    'director' => 'Joseph Kosinski',
+                    'cast' => 'Brad Pitt, Javier Bardem, Kerry Condon',
+                    'rating' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 19:45:49',
+                    'trailer' => 'https://www.youtube.com/embed/8yh9BPUBbbQ',
+                ),
+            94 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BODlkOTkyOTgtY2M3My00MmVmLWE0YzYtOWRhMDZjNDkwMzI2XkEyXkFqcGc@._V1_QL75_UX380_CR0,20,380,562_.jpg',
+                    'title' => 'Jurassic World: El renacer',
+                    'year' => '2025',
+                    'summary' => 'Cinco años después de Jurassic World: Dominion, una expedición se aventura en remotas regiones ecuatoriales para extraer ADN de tres enormes criaturas prehistóricas, con el objetivo de lograr un avance médico revolucionario.',
+                    'genres' => 'Acción, Aventura, Ciencia ficción',
+                    'runtime' => '2h 14m',
+                    'director' => 'Gareth Edwards',
+                    'cast' => 'Scarlett Johansson, Rupert Friend, Jonathan Bailey',
+                    'rating' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/1R3LTANp7hw',
+                ),
+            95 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMWFiZjUwZmEtMGVjYi00MjI0LTk5MzAtMjM0MjRkODcyNjI5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => 'Superman',
+                    'year' => '2025',
+                    'summary' => 'Sigue al superhéroe titular mientras reconcilia su herencia con su educación humana. Es la encarnación de la verdad, la justicia y un mañana mejor en un mundo que ve la bondad como algo anticuado.',
+                    'genres' => 'Acción, Aventura, Fantasía',
+                    'runtime' => '2h 2m',
+                    'director' => 'James Gunn',
+                    'cast' => 'David Corenswet, Rachel Brosnahan, Nicholas Hoult',
+                    'rating' => '',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/Ox8ZLF6cGM0',
+                ),
+            96 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BYzRiYTA1YTEtMjYwMi00NGVhLThkOGYtZDBlYjNjZDk2NDEwXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => 'Lilo & Stitch',
+                    'year' => '2002',
+                    'summary' => 'Una niña hawaiana adopta a supuesto un perro, sin saber que es un peligroso experimento científico que se ha refugiado en la Tierra y que ahora se esconde de su creador y de quienes lo ven como una amenaza.',
+                    'genres' => 'Animación, Aventura, Comedia',
+                    'runtime' => '1h 25m',
+                    'director' => 'Dean DeBlois, Chris Sanders',
+                    'cast' => 'Daveigh Chase, Chris Sanders, Tia Carrere',
+                    'rating' => '7,3',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/9OAC55UWAQs',
+                ),
+            97 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BNTMyYzNiZjEtZTM3NC00OGRkLTkzMjEtZGI2NDcwZTk5NmNhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => 'The Brutalist',
+                    'year' => '2024',
+                    'summary' => 'Cuando el visionario arquitecto László Toth y su esposa Erzsébet huyen de la Europa de posguerra en 1947 para reconstruir su legado y ver el nacimiento de la América moderna, sus vidas cambian a causa de un misterioso y adinerado cliente.',
+                    'genres' => 'Drama',
+                    'runtime' => '3h 36m',
+                    'director' => 'Brady Corbet',
+                    'cast' => 'Adrien Brody, Felicity Jones, Guy Pearce',
+                    'rating' => '7,4',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/GdRXPAHIEW4',
+                ),
+            98 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BYjkyNmFiYTYtODE4Mi00ZWRlLWI3OWUtY2RjMmYxNzljYWM1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => 'Misión: Imposible - Nación secreta',
+                    'year' => '2015',
+                    'summary' => 'Ethan y su equipo asumen su misión más imposible hasta la fecha, erradicar al Sindicato, una organización internacional clandestina tan altamente cualificada como ellos, comprometida con la destrucción del FMI.',
+                    'genres' => 'Acción, Aventura, Suspense',
+                    'runtime' => '2h 11m',
+                    'director' => 'Christopher McQuarrie',
+                    'cast' => 'Tom Cruise, Rebecca Ferguson, Jeremy Renner',
+                    'rating' => '7,4',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/KhpZIDPY1RU',
+                ),
+            99 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BMDgzZTgzOTEtMTllZS00ZDdjLWE4NWUtOTkwOTk0Mjk3ODA5XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => 'Eddington',
+                    'year' => '2025',
+                    'summary' => 'Una pareja varada en un pequeño pueblo de Nuevo México durante la pandemia encuentra que la comunidad inicialmente acogedora se vuelve siniestra al caer la noche.',
+                    'genres' => 'Comedia, Drama, Del oeste',
+                    'runtime' => '2h 28m',
+                    'director' => 'Ari Aster',
+                    'cast' => 'Joaquin Phoenix, Deirdre O\'Connell, Emma Stone',
+                    'rating' => '5,8',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/oL6jZqExlIk',
+                ),
+            100 =>
+                array (
+                    'movie_poster' => 'https://m.media-amazon.com/images/M/MV5BYTI4NjcwODMtZGVhMi00ODhhLWIwODItZTQ4MmY0ZmU5OTliXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg',
+                    'title' => 'The Last Rodeo',
+                    'year' => '2025',
+                    'summary' => 'Un ex jinete de rodeo de 50 años distanciado de su hija decide montar de nuevo cuando surge una crisis con su nieto, enfrentando sus demonios y considerando el máximo sacrificio por su familia.',
+                    'genres' => 'Drama',
+                    'runtime' => '1h 56m',
+                    'director' => 'Jon Avnet',
+                    'cast' => 'Neal McDonough, Mykelti Williamson, Sarah Jones',
+                    'rating' => '6,9',
+                    'created_at' => '2025-07-31 05:31:03',
+                    'updated_at' => '2025-07-31 05:31:03',
+                    'trailer' => 'https://www.youtube.com/embed/ADuANCCW1iw',
                 ),
         );
 
